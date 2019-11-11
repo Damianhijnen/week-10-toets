@@ -1,0 +1,225 @@
+body {
+	background-color: ;
+	height: 100%;
+}
+
+img.logo {
+	display: block;
+	margin: 0 auto;
+	
+}
+.menu {
+	position: relative;
+	margin-left: -8px;
+	margin-right: -8px;
+	width: 102%;
+	height: 45px;
+	background-color: green;
+	margin-top: 21px;
+	
+	list-style-type: none;
+	
+	overflow: hidden;
+
+}
+	.Firstbutton{
+            float: left;
+
+            margin-left: 20%;
+            width: 80px;
+            height: 45px;
+            border: none;
+            background-color:#511c74;
+            color: #91c73e }
+
+        .button{
+            float: left;
+            margin-left: 7%;
+            width: 80px;
+            height: 45px;
+            border: none;
+            background-color:#511c74;
+            color: #91c73e }
+        .Firstbutton:hover{
+          background-color: white; }
+        .button:hover{
+          background-color: white;
+        }
+
+
+	.snacks	{width: 80px; height: 45px; background color: purple; list-style-type: none;}
+	.friet	{grid-area: friet; background color: purple; list-style-type: none;}
+	.lunch	{grid-area: lunch; background color: purple; list-style-type: none;}
+	.menus	{grid-area: menus; background color: purple; list-style-type: none;}
+	.contact {grid-area: right; background color: purple; list-style-type: none;}
+
+
+	.main {
+		display: grid;
+		grid-template-areas: 'blok biterbal kebab frikandel bal' 'linkstekst linkstekst logo rechtstekst rechtstekst' 'kaasoflee kipcorn kipnugets kroket mexicano';
+		grid-template-columns: 'auto auto auto auto auto';
+		grid-template-rows: auto;
+		grid-gap: ;
+		background-color: ;
+		width: 100%;
+		min-height: 400px;
+	}
+
+			.item1 {grid-area: blok;}
+			.item2 {grid-area: biterbal;}
+			.kebab {grid-area: kebab; }
+			.frikandel {grid-area: frikandel;}
+			.bal {grid-area: bal;}
+
+			.linkstekst {grid-area: linkstekst;}
+			.logo {grid-area: logo;}
+			.rechtstekst {grid-area: rechtstekst}
+
+			.kaasoflee {grid-area: kaasoflee;}
+			.kipcorn {grid-area: kipcorn;}
+			.kipnugets {grid-area: kipnugets;}
+			.kroket {grid-area: kroket;}
+			.mexicano {grid-area: mexicano;}
+
+.footer {
+	position: fixed;
+	background-color: green;
+	width: 100%;
+	height: 30px;
+	
+	text-align: center;
+	left: 0;
+	bottom: 0;
+}
+
+
+p.footer {
+	padding-top: -8px;
+	background-color: ;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.friet {
+	display: grid;
+	width: 90%;
+	margin: 0 auto;
+	min-height: 400px;
+	grid-template-areas: 'f1 prijzen f2' 'f3 prijzen f4';
+	grid-template-columns: auto auto auto;
+	background-color: ;
+}
+
+				.f1	{grid-area: f1;}
+				.f2 {grid-area: f2;}
+
+				.prijzen {grid-area: prijzen; margin-top: 50%}
+
+				.f3 {grid-area: f3;}
+				.f4 {grid-area: f4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	background-color: ;
+}
+
+.broodjes {
+	display: block;
+	margin-top: 10px;
+	float: left;
+	min-width: 400px;
+	background-color: purple;
+	min-height: 300px;
+	grid-area: broodjes;
+	margin-left: 2%
+}
+
+.box { 
+	width: 90%;
+	background-color: red;
+	grid-template-areas: 'broodjes hamburgers'
+	min-height: 300px;
+}
+
+h1.groen {
+	background-color: green;
+	margin-top: 0px;
+	text-align: center;
+}
+p {
+	margin-left: 8px;
+}
+
+.hamburgers {
+	display: block;
+	float: right;
+	grid-area: hamburgers;
+	margin-top: 10px;
+	margin-left: 20%;
+	
+	min-width: 400px;
+	background-color: purple;
+	min-height: 300px;
+}
+
+.menus {
+		display: grid;
+		grid-template-areas: 'blok biterbal kebab frikandel bal' 'linkstekst linkstekst logo rechtstekst rechtstekst' 'links links kipnugets rechts rechts';
+		grid-template-columns: 'auto auto auto auto auto';
+		grid-template-rows: auto;
+		grid-gap: ;
+		background-color: ;
+		width: 100%;
+		min-height: 400px;
+	}
+
+.rechts {grid-area: rechts;}
+
+
+.links {grid-area: links;}
+
+
+
+
+
+
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+h1 {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
